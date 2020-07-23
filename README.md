@@ -1,5 +1,32 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+## Install mongod
+Download: https://www.mongodb.com/try/download/community
+Paste in terminal: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+In terminal: brew install node
+In terminal check: node -v (It should be show version of node)
+In terminal: 
+  brew tap mongodb/brew
+  brew install mongodb-community
+  brew services start mongodb-community
+
+Links:  1] https://stackoverflow.com/questions/57856809/installing-mongodb-with-homebrew
+        2] https://github.com/mongodb/homebrew-brew
+
+In Terminal: mongod
+In Terminal: sudo -P /data/db
+In Terminal: sudo mkdir -p /data/db
+In Terminal check: whoami
+<system-name>
+In Terminal: sudo chown  -Rv <system-name> /data/db
+mongod --dbpath=/Users/user/data/db
+mongod
+  ========> [initandlisten] MongoDB starting : pid=90153 port=27017 dbpath=/data/db 64-bit host=AMAC02ZR7FPMD6N <==========
+mongo
+.......
+.......
+>
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,31 +1,40 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+Help full link: https://youtu.be/MIByvzueqHQ?list=PLmP_TCZ-a3ZMyp5Ept2XMB_5qt7dkmuLu
 ## Install mongod
-Download: https://www.mongodb.com/try/download/community
-Paste in terminal: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-In terminal: brew install node
-In terminal check: node -v (It should be show version of node)
-In terminal: 
-  brew tap mongodb/brew
-  brew install mongodb-community
-  brew services start mongodb-community
+Download: https://www.mongodb.com/try/download/community<br />
+In terminal: <br />
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"<br />
+brew install node<br />
+node -v (It should be show version of node)<br />
 
-Links:  1] https://stackoverflow.com/questions/57856809/installing-mongodb-with-homebrew
-        2] https://github.com/mongodb/homebrew-brew
 
-In Terminal: mongod
-In Terminal: sudo -P /data/db
-In Terminal: sudo mkdir -p /data/db
-In Terminal check: whoami
-<system-name>
-In Terminal: sudo chown  -Rv <system-name> /data/db
-mongod --dbpath=/Users/user/data/db
-mongod
-  ========> [initandlisten] MongoDB starting : pid=90153 port=27017 dbpath=/data/db 64-bit host=AMAC02ZR7FPMD6N <==========
-mongo
-.......
-.......
->
+brew tap mongodb/brew<br />
+brew install mongodb-community<br />
+brew services start mongodb-community<br />
+
+Links:<br />
+1] https://stackoverflow.com/questions/57856809/installing-mongodb-with-homebrew<br />
+2] https://github.com/mongodb/homebrew-brew<br />
+<br />
+In Terminal:<br />
+mongod<br />
+sudo -P /data/db<br />
+sudo mkdir -p /data/db<br />
+whoami<br />
+<system-name><br />
+sudo chown  -Rv <system-name> /data/db<br />
+mongod --dbpath=/Users/user/data/db<br />
+mongod<br />
+===============================================================================<br />
+Check here: https://youtu.be/MIByvzueqHQ?list=PLmP_TCZ-a3ZMyp5Ept2XMB_5qt7dkmuLu&t=327 <br />
+[initandlisten] MongoDB starting : pid=90153 port=27017 dbpath=/data/db 64-bit host=AMAC02ZR7FPMD6N<br />
+===============================================================================<br />
+mongo<br />
+.......<br />
+.......<br />
+\>
+<br />
 
 ## Available Scripts
 
